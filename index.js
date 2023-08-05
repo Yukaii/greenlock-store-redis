@@ -43,7 +43,10 @@ function safeJsonParse(str) {
 module.exports.create = function (opts) {
   // pass in database url, connection string, filepath,
   // or whatever it is you need to get your job done well
-  if (!opts.redisUrl) {
+
+  const redisUrl = opts.redisUrl || process.env.REDIS_URL;
+
+  if (!redisUrl) {
     throw new Error('You must provide a redisUrl');
   }
 
