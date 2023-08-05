@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Yukai Huang",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "greenlock-store-test": "3.x",
     "redis-memory-server": "^0.7.0"
