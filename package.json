@@ -1,5 +1,5 @@
 {
-  "name": "greenlock-store-redis",
+  "name": "@yukaii/greenlock-store-redis",
   "version": "1.0.0",
   "description": "A simple Redis store for Greenlock.js",
   "main": "index.js",
